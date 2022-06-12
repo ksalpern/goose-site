@@ -1,0 +1,257 @@
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-page {
+    background: linear-gradient(270deg,#A5Deff 0%, #FCFEFF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+header{
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo-text {
+    margin-left: 18px;
+}
+.goose-title {
+    color: #21202B;
+font-size: 64px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.goose-container {
+    background-color: #fff;
+    padding: 60px 56px;
+    align-self: center;
+}
+.goose-greeting {
+    color: #21202B;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.goose-start-text{
+    color: #FF680A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+.goose-description {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #21202B;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.goose-launch {
+    color: #fff;
+    background-color: #FF680A;
+    padding: 12px 24px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.goose-image {
+  align-self: flex-end;  
+}
+.goose-facts {
+padding: 52px 0 72px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.goose-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #21202B;
+    margin: 16px 0;
+}
+.goose-second-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #21202B;
+    width: 875px;
+}
+.goose-facts-container {
+width: 1170px;
+display: flex;
+justify-content: space-between;
+
+}
+.goose-fact-item {
+width: 33%;
+} 
+.goose-fact-image {
+
+}
+.goose-fact-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #21202B;
+    margin: 12px 0 32px 0;
+}
+.goose-fact-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21202B;
+    width: 280px;
+}
+.victory-footer {
+display: flex;
+justify-content: center;
+}
+.victory-background {
+    background: linear-gradient(270deg,#A5Deff 0%, #FCFEFF 100%);
+   width: 1170px;
+   padding: 72px;
+margin-bottom: 72px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.ukr-logo {
+    
+}
+.victory-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #21202B;  
+    margin: 16px 0 ; 
+}
+.victory-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21202B; 
+    width: 845px;
+    text-align: center;
+}
+.modal-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(27 29 31 / 70%);
+    display: flex;
+align-items: center;
+justify-content: center;
+
+opacity: 0;
+pointer-events: none;
+
+transition: all 0.3 ease-out;
+}
+.modal-form {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.modal-form-container {
+ background-color: #c0e2f7;
+padding: 32px 92px 60px 92px ;   
+position: relative;
+}
+.modal-form-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #21202B;  
+    margin: 32px 0 12px 0 ; 
+}
+.modal-form-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21202B; 
+   
+    margin-bottom: 24px;
+}
+.modal-form-field {
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-bottom: 16px;
+}
+.modal-field-name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #21202B; 
+   margin-bottom: 8px;
+}
+.modal-field-input {
+border: 1px solid #1379b4;
+border-radius: 8px;
+height: 48px;
+font-size: 16px;
+    font-weight: 400;
+    color: #21202B;
+    padding: 4px 8px; 
+ }
+ .modal-form-btn{
+    color: #fff;
+    background-color: #FF680A;
+    padding: 12px 24px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 24px;
+ }
+ .close-btn {
+position: absolute;
+right: 20px;
+top: 20px;
+font-size: 20px;
+color: #21202B;
+background: none;
+border: 0;
+background: none;
+cursor: pointer;
+ }
+ .modal-description{
+    margin-bottom: 0;
+ }
+ .modal-active {
+    opacity: 1;
+    pointer-events: all;
+ }
